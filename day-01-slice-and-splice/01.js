@@ -25,6 +25,7 @@ console.log(wordsFromIndex(["a", "b", "c", "d"], 1));
 // bierze fragment
 // zwraca nową tablicę
 // nie rusza oryginału
+//ujemny indeks w slice liczy od końca
 
 // Szybka ściąga:
 // slice(start, end)
