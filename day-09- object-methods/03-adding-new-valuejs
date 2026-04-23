@@ -1,0 +1,20 @@
+/*
+Day 9 — Zadanie 3
+
+Napisz funkcję addCountry(user, country), która dodaje do obiektu użytkownika
+nową właściwość `country` z podaną wartością i zwraca obiekt.
+
+Przykład:
+addCountry({ name: "Anna", age: 31 }, "Poland");
+// { name: "Anna", age: 31, country: "Poland" }
+
+Warunki:
+- dodaj nową właściwość do obiektu
+*/
+function addCountry(user, country) {
+  user.country = country;
+    return user;
+}
+
+console.log(addCountry({ name: "Anna", age: 31 }, "Poland"));
+console.log(addCountry({ name: "Piotr", city: "Warsaw" }, "Poland"));
